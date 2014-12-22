@@ -1,0 +1,39 @@
+{
+	"name": "gulp-image-embed",
+	"version": "0.0.1",
+	"description": "A gulp task for converting images inside a stylesheet to data-URI strings.",
+	"license": "MIT",
+	"keywords": [
+		"data",
+		"uri",
+		"datauri",
+		"data-uri",
+		"convert",
+		"gulpplugin"
+	],
+	"author": {
+		"name": "anhulife",
+		"email": "anhulife@gmail.com"
+	},
+	"homepage": "https://github.com/anhulife/gulp-image-embed",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anhulife/gulp-image-embed.git"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"gulp-util": "^3.0.0",
+		"through2": "^0.5.1",
+		"mime": "^1.2.11"
+	},
+	"devDependencies": {
+		"concat-stream": "^1.4.6",
+		"gulp": "^3.8.7",
+		"mocha": "*"
+	}
+}

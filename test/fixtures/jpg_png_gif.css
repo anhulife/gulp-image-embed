@@ -1,0 +1,17 @@
+.foo{
+	position: absolute;
+	background: url(img/foo.jpg);
+	width: 100%;
+}
+
+.bar{
+	position: relative;
+	background: url(img/bar.png?dataURI);
+	width: 50%;
+}
+
+.baz{
+	position: relative;
+	background: url(img/baz.gif?noDataURI);
+	width: 50%;
+}
